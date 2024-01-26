@@ -1,3 +1,8 @@
+import setaEsquerda from '../assets/svg/esquerdaIcon.svg'
+import setaDireita from '../assets/svg/direitaIcon.svg'
+import Ração1 from '../assets/images/ração 1.png'
+import Ração2 from '../assets/images/ração 2.png'
+
 const Homepage = () => {
 
 
@@ -8,14 +13,14 @@ const Homepage = () => {
                 <div className="main-title">
                     <h2 className="main-h2">Destaques</h2>
                     <div className="main-vetores">
-                        <img src="/images/esquerdaIcon.svg" alt="vetor para esquerda"/>
-                        <img src="/images/direitaIcon.svg" alt="vetor para direita"/>
+                        <img src={setaEsquerda} alt="vetor para esquerda"/>
+                        <img src={setaDireita} alt="vetor para direita"/>
                     </div>
                 </div>
                 <div className="main-content-cards">
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 1.png" alt="modelo de imagem de ração 1"/>
+                            <img src={Ração1} alt="modelo de imagem de ração 1"/>
                             <span className="main-ração">Ração Seca Gahn Pet Golden para Gatos</span>
                             <span className="main-descricao">Indicada para gatos, sem conservantes, corantes e
                                 aromatizantes. Ingredientes
@@ -31,7 +36,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 2.png" alt="modelo de imagem de ração 2"/>
+                            <img src={Ração2} alt="modelo de imagem de ração 2"/>
                             <span className="main-ração">Ração Úmida Fooo Sachê Cães Adultos</span>
                             <span className="main-descricao">Indicada para cães, sem conservantes, corantes e aromatizantes.
                                 Ingredientes naturais</span>
@@ -46,7 +51,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 2.png" alt="modelo de imagem de ração 2"/>
+                            <img src={Ração2} alt="modelo de imagem de ração 2"/>
                             <span className="main-ração">Ração Úmida Fooo Sachê Cães Adultos</span>
                             <span className="main-descricao">Indicada para cães, sem conservantes, corantes e aromatizantes.
                                 Ingredientes naturais</span>
@@ -61,7 +66,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 1.png" alt="modelo de imagem de ração 1"/>
+                            <img src={Ração1} alt="modelo de imagem de ração 1"/>
                             <span className="main-ração">Ração Seca Gahn Pet Golden para Gatos</span>
                             <span className="main-descricao">Indicada para gatos, sem conservantes, corantes e
                                 aromatizantes. Ingredientes
@@ -77,7 +82,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 2.png" alt="modelo de imagem de ração 2"/>
+                            <img src={Ração2} alt="modelo de imagem de ração 2"/>
                             <span className="main-ração">Ração Úmida Fooo Sachê Cães Adultos</span>
                             <span className="main-descricao">Indicada para cães, sem conservantes, corantes e aromatizantes.
                                 Ingredientes naturais</span>
@@ -92,7 +97,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 1.png" alt="modelo de imagem de ração 1"/>
+                            <img src={Ração1} alt="modelo de imagem de ração 1"/>
                             <span className="main-ração">Ração Seca Gahn Pet Golden para Gatos</span>
                             <span className="main-descricao">Indicada para gatos, sem conservantes, corantes e
                                 aromatizantes. Ingredientes
@@ -110,14 +115,14 @@ const Homepage = () => {
                 <div className="main-title">
                     <h2 className="main-h2">Promoções</h2>
                     <div className="main-vetores">
-                        <img src="/images/esquerdaIcon.svg" alt="vetor para esquerda"/>
-                        <img src="/images/direitaIcon.svg" alt="vetor para direita"/>
+                        <img src={setaEsquerda} alt="vetor para esquerda"/>
+                        <img src={setaDireita} alt="vetor para direita"/>
                     </div>
                 </div>
                 <div className="main-content-cards">
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 1.png" alt="modelo de imagem de ração 1"/>
+                            <img src={Ração1} alt="modelo de imagem de ração 1"/>
                             <span className="main-ração">Ração Seca Gahn Pet Golden para Gatos</span>
                             <span className="main-descricao">Indicada para gatos, sem conservantes, corantes e
                                 aromatizantes. Ingredientes
@@ -133,7 +138,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 2.png" alt="modelo de imagem de ração 2"/>
+                            <img src={Ração2} alt="modelo de imagem de ração 2"/>
                             <span className="main-ração">Ração Úmida Fooo Sachê Cães Adultos</span>
                             <span className="main-descricao">Indicada para cães, sem conservantes, corantes e aromatizantes.
                                 Ingredientes naturais</span>
@@ -148,7 +153,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 2.png" alt="modelo de imagem de ração 2"/>
+                            <img src={Ração2} alt="modelo de imagem de ração 2"/>
                             <span className="main-ração">Ração Úmida Fooo Sachê Cães Adultos</span>
                             <span className="main-descricao">Indicada para cães, sem conservantes, corantes e aromatizantes.
                                 Ingredientes naturais</span>
@@ -163,7 +168,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 1.png" alt="modelo de imagem de ração 1"/>
+                            <img src={Ração1} alt="modelo de imagem de ração 1"/>
                             <span className="main-ração">Ração Seca Gahn Pet Golden para Gatos</span>
                             <span className="main-descricao">Indicada para gatos, sem conservantes, corantes e
                                 aromatizantes. Ingredientes
@@ -179,7 +184,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 2.png" alt="modelo de imagem de ração 2"/>
+                            <img src={Ração2} alt="modelo de imagem de ração 2"/>
                             <span className="main-ração">Ração Úmida Fooo Sachê Cães Adultos</span>
                             <span className="main-descricao">Indicada para cães, sem conservantes, corantes e aromatizantes.
                                 Ingredientes naturais</span>
@@ -194,7 +199,7 @@ const Homepage = () => {
                     </div>
                     <div className="main-card-1">
                         <div className="subcontent">
-                            <img src="/images/ração 1.png" alt="modelo de imagem de ração 1"/>
+                            <img src={Ração1} alt="modelo de imagem de ração 1"/>
                             <span className="main-ração">Ração Seca Gahn Pet Golden para Gatos</span>
                             <span className="main-descricao">Indicada para gatos, sem conservantes, corantes e
                                 aromatizantes. Ingredientes

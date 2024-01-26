@@ -19,7 +19,7 @@
 }
 
 .header-lupa::before {
-    content: url("images/lupaIcon.svg");
+    content: url("../assets/svg/lupaIcon.svg");
     position: absolute;
     top: 2.5%;
     padding-left: 6px;

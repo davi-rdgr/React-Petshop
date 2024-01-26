@@ -1,0 +1,112 @@
+.main-section {
+    width: 100%;
+    background-color: #21B6B6;
+    padding-bottom: 20px;
+}
+
+.main-h1 {
+    display: block;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: initial;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 190px;
+}
+
+.main-title {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-h2 {
+    font-size: 35px;
+    margin: 0px;
+    color: white;
+    font-weight: initial;
+}
+
+.main-vetores img {
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main-content-cards {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-card-1 {
+    border-radius: 15px;
+    width: 230px;
+    margin: 8px;
+    background-color: #FFFFFF;
+    color: #2C2A2A;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-card-1 img {
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+
+}
+
+.main-card-1 span {
+    display: block;
+}
+
+.subcontent {
+    align-items: center;
+    margin: 0 auto;
+    width: 215px;
+}
+
+.main-ração {
+    color: #2C2A2A;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+
+.main-descricao {
+    color: #2C2A2A;
+    font-size: 12.8px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main-tipos span {
+    margin-right: 5px;
+    display: inline;
+    padding: 0px 7px 0px 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #2ECBAA;
+    color: white;
+}
+
+.main-marca {
+    color: #2C2A2A;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.main-price {
+    font-size: 15px;
+    color: #000000;
+}
+
+.main-promo {
+    font-size: 20px;
+    color: #2ECBAA;
+}
